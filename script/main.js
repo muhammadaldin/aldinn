@@ -6,8 +6,8 @@ window.addEventListener('load', () => {
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
-        confirmButtonText: 'Yes',
-        cancelButtonText: 'No',
+        confirmButtonText: 'Iyaa',
+        cancelButtonText: 'Enggak',
     }).then((result) => {
         if (result.isConfirmed) {
             document.querySelector('.song').play();
@@ -141,7 +141,7 @@ const animationTimeline = () => {
     )
     .staggerFrom(
         ".idea-6 span",
-        0.8, {
+        0.9, {
             scale: 3,
             opacity: 0,
             rotation: 15,
@@ -151,7 +151,7 @@ const animationTimeline = () => {
     )
     .staggerTo(
         ".idea-6 span",
-        0.8, {
+        0.9, {
             scale: 3,
             opacity: 0,
             rotation: -15,
