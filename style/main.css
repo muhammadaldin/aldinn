@@ -10,6 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 120vh;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     background-color: #c7a07a
